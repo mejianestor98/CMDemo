@@ -27,7 +27,7 @@
         <TextBlock
             Grid.Row="1" 
             Grid.Column="1"
-            x:Name="FullName"
+            Text="{Binding Path=FullName, Mode=OneWay}"
             Grid.ColumnSpan="2"
             />
         <TextBox

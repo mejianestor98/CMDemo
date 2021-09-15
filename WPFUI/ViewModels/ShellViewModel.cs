@@ -8,7 +8,7 @@ using WPFUI.Models;
 
 namespace WPFUI.ViewModels
 {
-    public class ShellViewModel : Screen
+    public class ShellViewModel : Conductor<object>
     {
         private string _firstName;
         private string _lastName;
@@ -82,5 +82,14 @@ namespace WPFUI.ViewModels
             LastName = "";
         }
 
+        public void LoadPageOne() 
+        {
+            ActivateItemAsync(new FirstChildViewModel());
+        }
+
+        public void LoadPageTwo()
+        {
+            ActivateItemAsync(new SecondChildViewModel());
+        }
     }
 }

@@ -13,11 +13,14 @@
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="20"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
@@ -62,5 +65,27 @@
             Grid.Column="1"
             Content="Clear Text"
             x:Name="ClearText"/>
+        
+        <!--Row 5-->
+        <Button 
+            x:Name="LoadPageOne"
+            Grid.Row="5"
+            Grid.Column="1"
+            Content="Load First Page"/>
+        
+        <Button
+            x:Name="LoadPageTwo"
+            Grid.Row="5"
+            Grid.Column="2"
+            Content="Load Second Page"/>
+
+        <!--Row 6-->
+        <ContentControl
+            Grid.Row="6"
+            Grid.Column="1"
+            Grid.ColumnSpan="5"
+            x:Name="ActiveItem"
+            />
+
     </Grid>
 </Window>

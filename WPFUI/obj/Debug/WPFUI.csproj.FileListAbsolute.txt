@@ -28,3 +28,7 @@ C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj
 C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
 C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj\Debug\WPFUI.exe
 C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj\Debug\WPFUI.pdb
+C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj\Debug\Views\FirstChildView.g.cs
+C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj\Debug\Views\SecondChildView.g.cs
+C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj\Debug\Views\FirstChildView.baml
+C:\Users\nesto\Documents\Freelance\formation\mvvm\CaliburnMicro\CMDemo\WPFUI\obj\Debug\Views\SecondChildView.baml

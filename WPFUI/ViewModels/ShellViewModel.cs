@@ -71,5 +71,16 @@ namespace WPFUI.ViewModels
             }
         }
 
+        public bool CanClearText(string firstName, string lastName)
+        {
+            return !String.IsNullOrWhiteSpace(firstName) || !String.IsNullOrWhiteSpace(lastName);
+        }
+
+        public void ClearText(string firstName, string lastName)
+        {
+            FirstName = "";
+            LastName = "";
+        }
+
     }
 }
